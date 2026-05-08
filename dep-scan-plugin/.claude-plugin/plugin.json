@@ -1,0 +1,14 @@
+{
+  "name": "dep-scan",
+  "version": "1.0.0",
+  "description": "Dependency vulnerability scanning plugin for Claude Code",
+  "author": "来福",
+  "commands": [
+    {
+      "name": "dep-scan",
+      "description": "Scan project dependencies for known vulnerabilities",
+      "usage": "/dep-scan",
+      "permissions": ["read", "execute"]
+    }
+  ]
+}
